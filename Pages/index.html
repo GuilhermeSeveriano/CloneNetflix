@@ -1,24 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="shortcut icon" href="../Images/Netflixicon.png" type="image/x-icon">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <title>NetflixClone</title>
 </head>
+
 <body>
 
-    <section>
-        <div class="manutencao">
-            <img src="../Images/Netflixicon.png" alt="">
-            <p> Realizando os ultimos ajustes</p>
-            <p>Em breve será publicado =]</p>
+    <header class="position">
+
+        <div class="container-left">
+            <div class="logo">
+                <img src="../Images/logo_netflix.png" alt="Logo Netflix">
+            </div>
+            <div class="navigation">
+                <p>Inicio</p>
+                <p>Série</p>
+                <p>Filmes</p>
+                <p>Bombando</p>
+                <p>Minha Lista</p>
+            </div>
         </div>
+
+
+
+        <div class="container-right">
+            <div class="search-icon">
+                <i class="icon-search"></i>
+            </div>
+            <div class="user">Usuário</div>
+            <div class="gift">
+                <i class="icon-gift"></i>
+            </div>
+            <div class="bel-notification">
+                <div class="notification">
+                    <span>15</span>
+                </div>
+                <i class="icon-bell-alt"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="destaque">
+
+        <video autoplay muted loop id="video-rp">
+            <source src="../Videos/SuperMarioBrosEncanadores.mp4">
+        </video>
+
+        <div class="overlay"></div> <!--blur no video-->
+
+        <div class="text-title">
+            <img src="../Images/Mario_Bros._Movie_logo.png" alt="">
+            <h2>Top 3 filmes</h2>
+            <p>Baseado no mundo dos jogos de Mario da Nintendo, o filme convida o publico a entrar em um universo vibrante e emocionante cheio de comédia e repleto de ação</p>
+            <div class="but">
+                <div class="bt"><i class="icon-play"></i>Assistir</div>
+                <div class="bt"><i class="icon-plus"></i></i>Minha Lista</div>
+                <div class="bt"><i class="icon-info"></i></i>Mais informações</div>
+            </div>
+        </div>
+
     </section>
 
 
+    <div class="others">
+        
+    </div>
 
-    
+
 </body>
+
 </html>
