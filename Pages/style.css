@@ -14,7 +14,9 @@
     src: url(../Fonts/Poppins-Regular.ttf);
 }
 
-
+html{
+    background-color: #000000;
+}
 .container-left{
     display: flex;
     flex-direction: row;
@@ -75,6 +77,8 @@
 .user{
     color: #ffff;
     font-size: 18px;
+    font-family: fonte2;
+    font-size: 16px;
 }
 
 .bel-notification{
@@ -195,4 +199,30 @@ section.destaque{
 .others{
     padding: 10em;
     background-color: #000000;
+}
+
+/**/
+
+
+
+.poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 300px;
+    margin-right: 10px;
+    transition:  450ms;
+    
+}
+
+.poster:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+.vitrine-flex{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
 }
