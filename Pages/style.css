@@ -17,6 +17,11 @@
 html{
     background-color: #000000;
 }
+
+body{
+    background-color: #000000;
+}
+
 .container-left{
     display: flex;
     flex-direction: row;
@@ -56,8 +61,7 @@ html{
     display: flex;
     justify-content: space-around;
     padding: 1.5em;
-    background-color: black;
-    
+
 }
 
 /**/
@@ -74,11 +78,23 @@ html{
     font-size: 20px;
 }
 
+i:hover{
+    cursor: pointer;
+}
+
 .user{
     color: #ffff;
     font-size: 18px;
     font-family: fonte2;
     font-size: 16px;
+}
+
+.user img{
+    height: 25px;
+}
+
+.user:hover{
+    cursor: pointer;
 }
 
 .bel-notification{
@@ -114,6 +130,7 @@ section.destaque{
     z-index: 1;
     overflow-y: hidden;
     overflow-x: hidden;
+    
 }
 
 #video-rp{
@@ -121,7 +138,29 @@ section.destaque{
     min-height: 100%;
     position: absolute;
     z-index: 1;
+
 }
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    gap: 10px;
+}
+
+
+.relevancia{
+    font-family: fonte2;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+.info :nth-child(1){
+    font-family: fonte;
+    color: #06bb00;
+}
+
 
 .overlay{
     position: absolute;
@@ -226,3 +265,23 @@ section.destaque{
     overflow-x: scroll;
     padding: 20px;
 }
+
+.principal h2{
+    color: #fff;
+    font-family: fonte2;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.vitrine-flex::-webkit-scrollbar { 
+        display: none;
+}
+
+.user{
+    display: flex ;
+    justify-content: center;
+}
+
+
+
+
