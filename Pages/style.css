@@ -18,9 +18,7 @@ html{
     background-color: #000000;
 }
 
-body{
-    background-color: #000000;
-}
+
 
 
 
@@ -28,11 +26,16 @@ body{
 
 
 /*Pagina Entrar NOVA INDEX*/
+
+
+
 body.backFilmes{
     background-image: url(../Images/backimage2.jpg);
-    background-size: cover;
+    background-size:auto;
     background-repeat: no-repeat;
     height: 100vh;
+    
+   
 }
 
 header{
@@ -67,7 +70,7 @@ header{
     background-color: rgb(250, 58, 58);
 }
 
-#caixa-login{
+form{
     background: rgba(0, 0, 0, 0.7);
     padding: 50px;
 }
@@ -75,6 +78,10 @@ header{
 .cortexto{
     color: gray;
 
+}
+
+.teste{
+    width: 30em;
 }
 
 p{
@@ -429,6 +436,9 @@ section.destaque{
     justify-content: center;
 }
 
+.texto{ 
+    font-family: fonte2;
+}
 
 
 @media (max-width: 755px){
@@ -453,5 +463,28 @@ section.destaque{
 
     }
 
+    .txt-response{
+        width: 100px;
+    }
 
+    .teste{
+        width: 25em;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 500px){
+    #caixa-login{
+        padding: 0;
+    }
+
+    .teste{
+        width: 22em;
+    }
+
+    .indeximg img{
+        padding: 0;
+        margin-left: 52px;
+    }i
 }
