@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../Images/Netflixicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>NetflixClone</title>
+</head>
+
+<body>
+
+    <header class="position">
+
+        <div class="container-left">
+            <div class="logo">
+                <img src="../Images/logo_netflix.png" alt="Logo Netflix">
+            </div>
+            <ul class="navigation">
+                <li>Inicio</li>
+                <li>Série</li>
+                <li>Filmes</li>
+                <li>Lista</li>
+            </ul>
+        </div>
+
+
+
+        <ul class="container-right">
+            <li class="icon">
+                <i class="icon-search"></i>
+            </li>
+            <li class="user">
+                <img src="../Images/iconUser.jpg" alt="">
+            </li>
+            <li class="gift">
+                <i class="icon-gift"></i>
+            </li>
+            <li class="bel-notification">
+                <div class="notification">
+                    <span>15</span>
+                </div>
+                <i class="icon-bell-alt"></i>
+            </li>
+        </ul>
+
+        <div class="menu-mobile" id="mobileMenu">
+            <button class="close" id="closeButton">
+                <i class="icon-remove"></i>
+            </button>
+
+            <ul class="container-mobile">
+                <li class="funcao">
+                    <p>Pesquisar</p>
+                </li>
+                <li class="funcao">
+                    <p>Usuário</p>
+                </li>
+                <li class="funcao">
+                   <p>Notificações</p>
+                </li>
+                <li class="funcao">
+                    <p>Séries</p>
+                 </li>
+                 <li class="funcao">
+                    <p>Filmes</p>
+                 </li>
+                 <li class="funcao">
+                    <p>Minha Lista</p>
+                 </li>
+            </ul>
+        </div>
+
+        <div class="hamburguer" id="hamburguerButton">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+         
+     
+
+    </header>
+
+    <section class="destaque">
+
+        <video autoplay muted loop id="video-rp">
+            <source src="../Videos/SuperMarioBrosEncanadores.mp4">
+        </video>
+
+        <div class="overlay"></div> <!--blur no video-->
+
+        <div class="text-title">
+            <img src="../Images/Mario_Bros._Movie_logo.png" alt="">
+            <div class="info">
+                <div class="relevancia">98% relevante</div>
+                <div class="relevancia">2023</div>
+                <div class="relevancia" >1h32</div>
+            </div>
+            <h2>Top 3 filmes</h2>
+            <p>Baseado no mundo dos jogos de Mario da Nintendo, o filme convida o publico a entrar em um universo
+                vibrante e emocionante cheio de comédia e repleto de ação</p>
+            <div class="but">
+                <div class="bt"><i class="icon-play"></i>Assistir</div>
+                <div class="bt"><i class="icon-plus"></i></i>Minha Lista</div>
+            </div>
+        </div>
+
+    </section>
+
+   
+    <section class="vitrine">
+        <div class="principal">
+            <h2>Populares Netflix</h2>
+        </div>
+        <div class="vitrine-flex">
+            <img class="poster" src="../Images/StrangerThings.jpg" alt="">
+            <img class="poster" src="../Images/BreakingBad.jpg" alt="">
+            <img class="poster" src="../Images/Peaky.jpg" alt="">
+            <img class="poster" src="../Images/irmandade.png" alt="">
+            <img class="poster" src="../Images/b99.jpg" alt="">
+            <img class="poster" src="../Images/Opennheimer.jpg" alt="">
+            <img class="poster" src="../Images/Suits.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="vitrine">
+        <div class="principal">
+            <h2>Populares Comédia</h2>
+        </div>
+        <div class="vitrine-flex">
+            <img class="poster" src="../Images/Comedia/misteriomediterraneo.webp" alt="">
+            <img class="poster" src="../Images/Comedia/misterioparis.webp" alt="">
+            <img class="poster" src="../Images/Comedia/badboys.webp" alt="">
+            <img class="poster" src="../Images/Comedia/gentegrande2.jpg" alt="">
+            <img class="poster" src="../Images/Comedia/nostemosfantasma.webp" alt="">
+            <img class="poster" src="../Images/Comedia/naocase.jpg" alt="">
+            <img class="poster" src="../Images/Comedia/bebernaocase2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="vitrine">
+        <div class="principal">
+            <h2>Populares Ação</h2>
+        </div>
+        <div class="vitrine-flex">
+            <img class="poster" src="../Images/Acao/fuga.jpg" alt="">
+            <img class="poster" src="../Images/Acao/ultimohomem.jpg" alt="">
+            <img class="poster" src="../Images/Acao/coreferro.jpg" alt="">
+            <img class="poster" src="../Images/Acao/resgate.jpg" alt="">
+            <img class="poster" src="../Images/Acao/Aginfiltrado.jpg" alt="">
+            <img class="poster" src="../Images/Acao/madmax.webp" alt="">
+            <img class="poster" src="../Images/Acao/aorigem.jpg" alt="">
+        </div>
+    </section>
+
+   
+
+
+</body>
+
+    <script src="./script.js"></script>
+
+</html>

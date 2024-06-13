@@ -22,6 +22,153 @@ body{
     background-color: #000000;
 }
 
+
+
+
+
+
+/*Pagina Entrar NOVA INDEX*/
+body.backFilmes{
+    background-image: url(../Images/backimage2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    padding: 2em;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.69) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.row img{
+    width: 12em;
+    margin-left: 100px;
+}
+
+.botao{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+
+}
+
+.botao a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao:hover{
+    cursor:pointer;
+    background-color: rgb(250, 58, 58);
+}
+
+#caixa-login{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+}
+
+.cortexto{
+    color: gray;
+
+}
+
+p{
+    color: #fff;
+}
+
+.menu_list{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    list-style: none;
+    padding-left: 30px;
+
+
+}
+
+.position-list{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 10em;
+
+}
+
+.menu-mobile{
+    display: none;
+    position: fixed;
+    z-index: 6;
+    top:0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s;
+
+}
+
+.container-mobile{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.close{
+    width: 20px;
+
+}
+
+.funcao{
+    font-family: fonte2;
+}
+
+.funcao p{
+    cursor: pointer;
+}
+
+
+
+
+.hamburguer div{
+    width: 32px;
+    height: 1px;
+    background: #fff;
+    margin: 7px;
+
+}
+
+.hamburguer{
+    display: none  ;
+
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+/**/
+
+
+
+
+.navigation li{
+    list-style: none;
+}
+
 .container-left{
     display: flex;
     flex-direction: row;
@@ -37,7 +184,7 @@ body{
 .logo img{
     width: 120px;
     height: auto;
-    
+
 }
 
 .navigation{
@@ -130,7 +277,7 @@ section.destaque{
     z-index: 1;
     overflow-y: hidden;
     overflow-x: hidden;
-    
+
 }
 
 #video-rp{
@@ -177,13 +324,13 @@ section.destaque{
     position: relative;
     margin-top: 80px;
     margin-left: 7%;
-    
+
 
 }
 
 .text-title img {
     height: 230px;
-    
+
 
 }
 
@@ -195,7 +342,7 @@ section.destaque{
     font-family: fonte2;
     font-size: 18px;
 
-   
+
 }
 
 .text-title h2{
@@ -218,8 +365,8 @@ section.destaque{
     color: #ffff;
     font-size: 18px;
     font-family: fonte2;
-    
-    
+
+
 }
 
 .bt i{
@@ -230,7 +377,7 @@ section.destaque{
     background-color: #ffff;
     color: #000000;
     cursor: pointer;
-    
+
 }
 
 /**/
@@ -250,7 +397,7 @@ section.destaque{
     max-height: 300px;
     margin-right: 10px;
     transition:  450ms;
-    
+
 }
 
 .poster:hover{
@@ -273,7 +420,7 @@ section.destaque{
     padding: 20px;
 }
 
-.vitrine-flex::-webkit-scrollbar { 
+.vitrine-flex::-webkit-scrollbar {
         display: none;
 }
 
@@ -284,4 +431,27 @@ section.destaque{
 
 
 
+@media (max-width: 755px){
+    .container-right{
+        display: none !important;
+    }
 
+    .hamburguer{
+        display: block;
+        cursor: pointer;
+        margin: 0;
+    }
+    .container-left{
+        gap: 15px;
+        margin:  0px;
+
+    }
+
+    .logo img{
+        width: 100px;
+        height: auto;
+
+    }
+
+
+}
