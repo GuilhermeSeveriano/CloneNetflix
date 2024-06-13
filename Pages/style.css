@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: fonte;
-    src: url(../Fonts/Poppins-Black.ttf);
+    src: url(../fonts/Poppins-Black.ttf);
 }
 
 @font-face{
     font-family: fonte2;
-    src: url(../Fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.ttf);
 }
 
 html{
