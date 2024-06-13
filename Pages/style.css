@@ -486,5 +486,87 @@ section.destaque{
     .indeximg img{
         padding: 0;
         margin-left: 52px;
-    }i
+    }
+}
+
+@media (max-width: 450px){
+    #caixa-login{
+        padding: 0;
+        margin-left: 35px;
+    }
+
+    .teste{
+        width: 22em;
+    }
+
+    .indeximg img{
+        padding: 0;
+        margin-left: 90px;
+    }
+}
+
+
+@media (max-width: 414px){
+    #caixa-login{
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .teste{
+        width: 22em;
+    }
+
+    .indeximg img{
+        padding: 0;
+        margin-left: 74px;
+    }
+}
+
+@media (max-width: 400px){
+    #caixa-login{
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .teste{
+        width: 22em;
+    }
+
+    .indeximg img{
+        padding: 0;
+        margin-left: 74px;
+    }
+}
+
+
+@media (max-width: 380px){
+    #caixa-login{
+        padding: 0;
+        margin-left: 2px;
+    }
+
+    .teste{
+        width: 22em;
+    }
+
+    .indeximg img{
+        padding: 0;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 362px){
+    #caixa-login{
+        padding: 0;
+        margin-left: 1px;
+    }
+
+    .teste{
+        width: 21em;
+    }
+
+    .indeximg img{
+        padding: 0;
+        margin-left: 50px;
+    }
 }
