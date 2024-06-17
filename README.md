@@ -7,9 +7,9 @@
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://github.com/Fernanda-Kipper/Readme-Templates
 
-<h1 align="center" style="font-weight: bold;">Nome do Projeto 💻</h1>
+<h1 align="center" style="font-weight: bold;">Clone Netflix 💻</h1>
 
-<h2 id="started">📌 Tecnologia Utilizadas </h2>
+<h2 id="started">📌 Tecnologias Utilizadas </h2>
 
 ![html][HTML__BADGE]
 ![css][CSS__BADGE]
@@ -17,12 +17,18 @@
 ![bootstrap][BOOTRSTRAP__BADGE]
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="https://github.com/GuilhermeSeveriano/CloneNetflix/assets/87097691/ddad6f35-36e3-4af2-a198-f154d33a0a95" alt="Image Example" width="500px" height="auto">
+    <img src="https://github.com/GuilhermeSeveriano/CloneNetflix/assets/87097691/899482c7-eb88-480e-a8db-4cf96e599919" alt="Image Example" width="500px" height="auto">    
 </p>
 
 <h2 id="started">📌 Sobre</h2>
 
-Simple description of what your project do or how to use it.
+Projeto realizado com o intuito de aprendizagem e conhecimento na área de Desenvolviemnto Web. Tecnicas de responsividade e medidas de estilização foram aderidas após o término do projeto
 
-[![project][PROJECT__BADGE]][PROJECT__URL] 
+<h2 id="started">📌 Acesso ao Projeto</h2>
+
+<p>
+    https://flixnetclon.netlify.app/pages/
+</p>
+
 
